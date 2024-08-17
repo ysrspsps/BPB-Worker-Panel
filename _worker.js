@@ -2960,7 +2960,7 @@ const xrayOutboundTemp =
         ]
     },
     streamSettings: {
-        network: "ws",
+        network: "httpupgrade",
         security: "tls",
         sockopt: {
             dialerProxy: "fragment",
